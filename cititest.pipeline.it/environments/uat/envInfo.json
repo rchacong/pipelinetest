@@ -1,0 +1,63 @@
+{
+    "name": "uat",
+    "propertyName": "uat.cititest.pipeline.it",
+    "groupId": 67223,
+    "isSecure": false,
+    "propertyId": 645286,
+    "latestVersionInfo": {
+        "propertyVersion": 1,
+        "updatedByUser": "chz4w4mfhhxgqnyn",
+        "updatedDate": "2020-09-01T06:05:50Z",
+        "productionStatus": "INACTIVE",
+        "stagingStatus": "ACTIVE",
+        "productId": "prd_Fresca",
+        "ruleFormat": "v2020-03-04"
+    },
+    "suggestedRuleFormat": "v2020-03-04",
+    "environmentHash": "8526b292458c85a2b4fccee6e93be83496637de2cbfc6f058b790d975ee94097",
+    "ruleTreeHash": "d6502b7ac812afcc5b67d649dc6f2a350e79c327331f4775bbcf6784ce2b335d",
+    "lastSavedHash": "8526b292458c85a2b4fccee6e93be83496637de2cbfc6f058b790d975ee94097",
+    "lastValidatedHash": "8526b292458c85a2b4fccee6e93be83496637de2cbfc6f058b790d975ee94097",
+    "lastSaveWarnings": [
+        {
+            "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.ssl_delegate_warning_rotate",
+            "errorLocation": {
+                "template": "templates/main.json",
+                "variables": [],
+                "location": "rules/behaviors/0",
+                "value": {
+                    "name": "origin",
+                    "options": {
+                        "cacheKeyHostname": "ORIGIN_HOSTNAME",
+                        "compress": true,
+                        "enableTrueClientIp": false,
+                        "forwardHostHeader": "REQUEST_HOST_HEADER",
+                        "hostname": "origin-uat.cititest.pipeline.it",
+                        "httpPort": 8080,
+                        "httpsPort": 443,
+                        "originSni": true,
+                        "originType": "CUSTOMER",
+                        "verificationMode": "PLATFORM_SETTINGS",
+                        "originCertificate": "",
+                        "ports": ""
+                    }
+                }
+            },
+            "detail": "If your `Origin Server` uses HTTPS, make sure to follow <a href=\"/dl/property-manager/property-manager-help/csh_lookup.html?id=PM_0034\" target=\"_blank\">this procedure</a> to avoid a service outage or a security breach when you rotate your origin's certificate."
+        }
+    ],
+    "lastSaveErrors": [],
+    "lastSaveHostnameErrors": [],
+    "lastSaveHostnameWarnings": [],
+    "lastSavedHostnamesHash": "6a4c60436582068898879e59a8004e931394db96b1232d4e2ed7f76b0220a860",
+    "activeIn_STAGING_Info": {
+        "propertyVersion": 1,
+        "updatedByUser": "chz4w4mfhhxgqnyn",
+        "updatedDate": "2020-09-01T06:05:50Z",
+        "productionStatus": "INACTIVE",
+        "stagingStatus": "ACTIVE",
+        "etag": "c68fa4d9969f3f96ae3124b27310d3cd2de028f1",
+        "productId": "prd_Fresca",
+        "ruleFormat": "v2020-03-04"
+    }
+}
