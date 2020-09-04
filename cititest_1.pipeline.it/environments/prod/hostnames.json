@@ -1,0 +1,8 @@
+[
+    {
+        "cnameFrom": "prod.cititest_1.pipeline.it",
+        "cnameTo": "www.buckpipeline.it.edgesuite.net",
+        "cnameType": "EDGE_HOSTNAME",
+        "edgeHostnameId": 4610053
+    }
+]
