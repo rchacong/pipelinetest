@@ -1,0 +1,8 @@
+[
+    {
+        "cnameFrom": "uat.cititest_2.pipeline.it",
+        "cnameTo": "uat.cititest_2.pipeline.it.edgesuite.net",
+        "cnameType": "EDGE_HOSTNAME",
+        "edgeHostnameId": null
+    }
+]

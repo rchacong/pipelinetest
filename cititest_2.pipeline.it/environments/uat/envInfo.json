@@ -1,0 +1,17 @@
+{
+    "name": "uat",
+    "propertyName": "uat.cititest_2.pipeline.it",
+    "groupId": 67223,
+    "isSecure": false,
+    "propertyId": 646559,
+    "latestVersionInfo": {
+        "propertyVersion": 1,
+        "updatedByUser": "chz4w4mfhhxgqnyn",
+        "updatedDate": "2020-09-04T20:19:02Z",
+        "productionStatus": "INACTIVE",
+        "stagingStatus": "INACTIVE",
+        "productId": "prd_Fresca",
+        "ruleFormat": "latest"
+    },
+    "suggestedRuleFormat": "v2020-03-04"
+}

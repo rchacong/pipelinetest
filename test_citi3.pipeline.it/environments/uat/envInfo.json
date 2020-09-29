@@ -1,0 +1,19 @@
+{
+    "name": "uat",
+    "propertyName": "uat.test_citi3.pipeline.it",
+    "groupId": 67223,
+    "isSecure": false,
+    "propertyId": 652401,
+    "latestVersionInfo": {
+        "propertyVersion": 1,
+        "updatedByUser": "chz4w4mfhhxgqnyn",
+        "updatedDate": "2020-09-29T01:48:54Z",
+        "productionStatus": "INACTIVE",
+        "stagingStatus": "INACTIVE",
+        "productId": "prd_Fresca",
+        "ruleFormat": "latest"
+    },
+    "suggestedRuleFormat": "v2020-03-04",
+    "environmentHash": "7b0bc5b05c41cbb9ceb3b884339cf0655c2b26260263de4c279f63442c0815e7",
+    "ruleTreeHash": "96bcadec50d6f6162cb7946bf75704c49e7d20560699fc7f00c3a0a85b4f67e5"
+}

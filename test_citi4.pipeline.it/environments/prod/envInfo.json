@@ -1,0 +1,49 @@
+{
+    "name": "prod",
+    "propertyName": "prod.test_citi4.pipeline.it",
+    "groupId": 67223,
+    "isSecure": false,
+    "propertyId": 652408,
+    "latestVersionInfo": {
+        "propertyVersion": 1,
+        "updatedByUser": "chz4w4mfhhxgqnyn",
+        "updatedDate": "2020-09-29T02:38:38Z",
+        "productionStatus": "INACTIVE",
+        "stagingStatus": "INACTIVE",
+        "productId": "prd_Fresca",
+        "ruleFormat": "latest"
+    },
+    "suggestedRuleFormat": "v2020-03-04",
+    "environmentHash": "c3b7b931b11c3b1a05f239075b05bb04df40bac3fd7ff911909594e56aef8829",
+    "ruleTreeHash": "400d9fd0d5d7f375898956f6db9ee81606411087b192198314a8b20b9ca37708",
+    "lastValidatedHash": "c3b7b931b11c3b1a05f239075b05bb04df40bac3fd7ff911909594e56aef8829",
+    "lastSaveWarnings": [
+        {
+            "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.ssl_delegate_warning_rotate",
+            "errorLocation": {
+                "template": "templates/main.json",
+                "variables": [],
+                "location": "rules/behaviors/0",
+                "value": {
+                    "name": "origin",
+                    "options": {
+                        "cacheKeyHostname": "ORIGIN_HOSTNAME",
+                        "compress": true,
+                        "enableTrueClientIp": false,
+                        "forwardHostHeader": "REQUEST_HOST_HEADER",
+                        "hostname": "origin-prod.test_citi4.pipeline.it",
+                        "httpPort": 80,
+                        "httpsPort": 443,
+                        "originSni": true,
+                        "originType": "CUSTOMER",
+                        "verificationMode": "PLATFORM_SETTINGS",
+                        "originCertificate": "",
+                        "ports": ""
+                    }
+                }
+            },
+            "detail": "If your `Origin Server` uses HTTPS, make sure to follow <a href=\"/dl/property-manager/property-manager-help/csh_lookup.html?id=PM_0034\" target=\"_blank\">this procedure</a> to avoid a service outage or a security breach when you rotate your origin's certificate."
+        }
+    ],
+    "lastSaveErrors": []
+}

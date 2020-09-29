@@ -1,0 +1,17 @@
+{
+    "definitions": {
+        "originHostname": {
+            "type": "hostname",
+            "default": null
+        },
+        "cpCode": {
+            "type": "cpCode",
+            "default": 559461
+        },
+        "ttl": {
+            "type": "ttl",
+            "default": "7d"
+        }
+
+    }
+}

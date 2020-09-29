@@ -1,0 +1,69 @@
+{
+    "name": "uat",
+    "propertyName": "uat.test_citi4.pipeline.it",
+    "groupId": 67223,
+    "isSecure": false,
+    "propertyId": 652407,
+    "latestVersionInfo": {
+        "propertyVersion": 1,
+        "updatedByUser": "chz4w4mfhhxgqnyn",
+        "updatedDate": "2020-09-29T02:53:07Z",
+        "productionStatus": "INACTIVE",
+        "stagingStatus": "ACTIVE",
+        "productId": "prd_Fresca",
+        "ruleFormat": "v2020-03-04"
+    },
+    "suggestedRuleFormat": "v2020-03-04",
+    "environmentHash": "361514ed520e6c88fbb5740df7b2f0c8b6f8f6374d9caf3469494496230694e7",
+    "ruleTreeHash": "9100351f2a9595aeab5bb8491f08ba40fd41aa86749dbdd9705726f1d72769bf",
+    "lastSavedHash": "361514ed520e6c88fbb5740df7b2f0c8b6f8f6374d9caf3469494496230694e7",
+    "lastValidatedHash": "361514ed520e6c88fbb5740df7b2f0c8b6f8f6374d9caf3469494496230694e7",
+    "lastSaveWarnings": [
+        {
+            "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.ssl_delegate_warning_rotate",
+            "errorLocation": {
+                "template": "templates/main.json",
+                "variables": [],
+                "location": "rules/behaviors/0",
+                "value": {
+                    "name": "origin",
+                    "options": {
+                        "cacheKeyHostname": "ORIGIN_HOSTNAME",
+                        "compress": true,
+                        "enableTrueClientIp": false,
+                        "forwardHostHeader": "REQUEST_HOST_HEADER",
+                        "hostname": "origin-uat.test_citi4.pipeline.it",
+                        "httpPort": 80,
+                        "httpsPort": 443,
+                        "originSni": true,
+                        "originType": "CUSTOMER",
+                        "verificationMode": "PLATFORM_SETTINGS",
+                        "originCertificate": "",
+                        "ports": ""
+                    }
+                }
+            },
+            "detail": "If your `Origin Server` uses HTTPS, make sure to follow <a href=\"/dl/property-manager/property-manager-help/csh_lookup.html?id=PM_0034\" target=\"_blank\">this procedure</a> to avoid a service outage or a security breach when you rotate your origin's certificate."
+        }
+    ],
+    "lastSaveErrors": [],
+    "lastSaveHostnameErrors": [],
+    "lastSaveHostnameWarnings": [
+        {
+            "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/hostname_contains_underscore",
+            "errorLocation": "#/hostnames/items/0",
+            "detail": "Hostname `uat.test_citi4.pipeline.it` contains '_' characters. This may cause problems for some DNS resolvers."
+        }
+    ],
+    "lastSavedHostnamesHash": "585c019ef72e4948043b2ebbac39bd4bed518fd6582b6d468f6ee1539b62144b",
+    "activeIn_STAGING_Info": {
+        "propertyVersion": 1,
+        "updatedByUser": "chz4w4mfhhxgqnyn",
+        "updatedDate": "2020-09-29T02:53:07Z",
+        "productionStatus": "INACTIVE",
+        "stagingStatus": "ACTIVE",
+        "etag": "96457be2ffde468f342aaf3307dc718548455d98",
+        "productId": "prd_Fresca",
+        "ruleFormat": "v2020-03-04"
+    }
+}
